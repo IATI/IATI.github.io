@@ -1,0 +1,8 @@
+<div class="PageNavigation">
+    {% if page.previous.url %}
+        <a class="prev" href="{{page.previous.url}}">&laquo; Previous post</a>
+    {% endif %}
+    {% if page.next.url %}
+        <a class="next {% if page.previous.url %}{% else %}last{% endif %}" href="{{page.next.url}}">Next post &raquo;</a>
+    {% endif %}
+</div>
