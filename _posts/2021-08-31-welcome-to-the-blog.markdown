@@ -9,7 +9,7 @@ Hello and welcome to the first post on our brand new IATI Developer Blog. We're 
 
 Fittingly, I'm going to first describe how we built this simple website. As you may have already noticed, it's a static website that has been written in Markdown, processed by a Ruby package called Jekyll, and served on Github Pages. But how does that all work?
 
-You’ll notice that this post lives in the `_posts` directory of this repositry. After cloning the repository locally, you may need to install Ruby, bundle, and the prerequisite Gems to render the site locally. I was able to do so with `sudo apt install jekyll` to install Jekyll and Ruby, as well as `bundle install` to install the Gems.
+You’ll notice that this post lives in the `_posts` directory of this repository. After cloning the repository locally, you may need to install Ruby, bundle, and the prerequisite Gems to render the site locally. I was able to do so with `sudo apt install jekyll` to install Jekyll and Ruby, as well as `bundle install` to install the Gems.
 
 Then, go ahead and edit this post and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `bundle exec jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
