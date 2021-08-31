@@ -28,5 +28,7 @@ Lastly, Jekyll also has some useful plugins. For example, I've enabled 'jekyll-f
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh].
 
+P.S. I might also recommend that anyone writing blogs in VS Code look into the Spell Checker extension. In VS Code, simply hit CTRL+P and then paste in `ext install streetsidesoftware.code-spell-checker`, which will automatically install the extension. Otherwise, it's very easy to accidentally misspell words!
+
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
