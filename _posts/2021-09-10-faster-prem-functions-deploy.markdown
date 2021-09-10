@@ -6,6 +6,8 @@ date:   2021-09-10
 categories: blog
 ---
 
+Increase deployment speed of Azure Premium SKU Functions from GitHub Actions through use of Docker containers and an Azure maintained action.
+
 ## Background
 
 The IATI Technical team has been working hard over the last year on delivering a new Unified Platform for IATI services based on a microservice architecture in Azure.
