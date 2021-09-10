@@ -22,6 +22,7 @@ Jekyll also offers powerful support for code snippets:
    <narrative>Organisation name</narrative>
    <narrative xml:lang="fr">Nom de l'organisme</narrative>
 </reporting-org>
+<activities></activities>
 {% endhighlight %}
 
 Lastly, Jekyll also has some useful plugins. For example, I've enabled 'jekyll-feed' which automatically creates an Atom (RSS-like) feed at [/feed.xml](/feed.xml). These can be enabled by specifying the version number in the `Gemfile`, and then including the plugin name in `_config.yml`.
