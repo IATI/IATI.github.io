@@ -2,7 +2,7 @@
 layout: post
 title:  "The IATI Unified Platform is Launched!"
 author: Alex Lydiate
-date:   2021-09-10
+date:   2021-09-13
 categories: blog
 ---
 For the last decade or so, IATI software as cared for by the core IATI technical team has been a smorgasbord of tools contributed by all sorts, each operating independently on innumerable servers, each repeating a number of things in different and exotic ways - most presciently, downloading the 8000+ plus IATI documents to occupy many duplicated gigabytes of storage space.
