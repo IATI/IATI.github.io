@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The IATI Unified Platform is Launched!"
-author: Alex Lydiate
+author: alex_lydiate
 date:   2021-09-13
 categories: blog
 ---

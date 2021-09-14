@@ -2,13 +2,17 @@
 layout: default
 ---
 
+
+
 <div class="posts">
     {% for post in site.posts limit:10 %}
         <article class="post">
 
+            {% assign author = site.data.authors[post.author] %}
+
             <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
 
-            <p class="post-author">By {{ post.author }}</p>
+            <p class="post-author">By {{ author.name }}</p>
             <p class="post-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></p>
 
 

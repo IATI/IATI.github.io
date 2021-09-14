@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Welcome to the IATI Developer Blog!"
-author: Alex Miller
+author: alex_miller
 date:   2021-08-31
 categories: blog
 ---
