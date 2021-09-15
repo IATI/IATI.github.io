@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Faster deployments of Azure Premium Functions with GitHub Actions"
-author: nik_oswalds
+author: nik_osvalds
 date:   2021-09-10
 categories: blog
 ---
