@@ -2,7 +2,7 @@
 layout: post
 title:  "Inefficiency by Cloud Design"
 author: alex_lydiate
-date:   2022-09-15
+date:   2021-09-15
 categories: blog
 ---
 When I started to play this game, back in the early years of this century, we had system administrators on staff.
