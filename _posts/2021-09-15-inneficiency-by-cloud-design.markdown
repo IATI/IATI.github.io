@@ -2,10 +2,10 @@
 layout: post
 title:  "Inefficiency by Cloud Design"
 author: alex_lydiate
-date:   2022-03-08
+date:   2022-09-15
 categories: blog
 ---
-When I started to play this game, back in the early years of this century, we had system admnistrators on staff.
+When I started to play this game, back in the early years of this century, we had system administrators on staff.
 
 System administrators were hardcore. They would replace your 500 failing lines of Personal Home Page code with a single line of Perl and a slap in the face. They would compile Linux kernels whilst explaining the true nature of anarchism. And they would keep your business on the Web from a single dusty old server in the back of the office.
 
