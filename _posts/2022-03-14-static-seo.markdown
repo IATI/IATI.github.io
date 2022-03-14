@@ -2,7 +2,7 @@
 layout: post
 title:  "Search Engine Optimization in the Age of Single-page"
 author: alex_miller
-date:   2022-03-10
+date:   2022-03-14
 categories: blog
 ---
 
@@ -26,4 +26,8 @@ The main disadvantage of static single-page applications, on the other hand, is 
 
 First, even though we lost control of our server-side processes, we still retained control over DNS. Especially useful is Cloudflare's "Page rule" feature, where you can implement a number of helpful functions like enforcing HTTPS or rewriting specific endpoints. So we had an avenue to rewrite `/sitemap-{id}.xml` to any arbitrary server of our choosing.
 
-With a rewrite in hand, we could retain all of the advantage of our static website while using whatever technology we needed to serve the sitemap. Most accessible for us was an Azure consumption-tier Function that would only run when it was pinged by the Google bots. So we implemented an extensible [sitemapper](https://github.com/IATI/sitemapper) Function that would be able to accept redirects from any given static site, and serve dynamic sitemap content to the indexing bots. From that point, we could make use of the same APIs that fed the static website to create dynamic sitemap XML based upon IATI identifiers. Now, only 2 days after launch, about 16% of our traffic is already coming from organic searches, and that number is sure to increase further as Google indexes more of the IATI text within our content.
+With a rewrite in hand, we could retain all of the advantage of our static website while using whatever technology we needed to serve the sitemap. Most accessible for us was an Azure consumption-tier Function that would only run when it was pinged by the Google bots. So we implemented an extensible [sitemapper](https://github.com/IATI/sitemapper) Function that would be able to accept redirects from any given static site, and serve dynamic sitemap content to the indexing bots. From that point, we could make use of the same APIs that fed the static website to create dynamic sitemap XML based upon IATI identifiers.
+
+![Google Search Console showing the HTML of a crawled page with a title and meta description tag](/assets/crawled_seo.png)
+
+After Google has an index of your dynamic pages, the Googlebot is fully capable of waiting for JavaScript-enabled content to load. As you can see above, in the pages Google has already indexed, the dynamic page title and meta description tag are populated by the API prior to the indexing snapshot. Now, only one week after launch, about 13% of our traffic is already coming from organic search, and that number is sure to increase further as Google indexes more of the IATI text within our content.
