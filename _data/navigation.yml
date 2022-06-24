@@ -1,5 +1,8 @@
 - title: Home
   url: /
 
-- title: Blog archive
+- title: Blog
   url: /blog/
+
+- title: Code examples
+  url: /code/
