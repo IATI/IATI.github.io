@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: IATI Developer Blog
+title: IATI Developer Documentation
 email: code@iatistandard.org
 description: >- # this means to ignore newlines until "baseurl:"
-  A technical blog from your friendly neighborhood IATI Developers.
+  Technical blog posts and helpful code examples from your friendly neighborhood IATI Developers.
 domain: iati.github.io
 url: "https://iati.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: IATI_aid
